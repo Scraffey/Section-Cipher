@@ -1,24 +1,32 @@
 import base64
+import random
 
 def step1(text, s):
     result = ""
     for i in range (len(text)):
         char = text[i]
-        if(char.isupper()):
+        if(char.isalpha() == 0):
+            result += char
+        elif(char.isupper()):
             result += chr((ord(char) + s - 65) % 26 + 65)
-        else:
+        elif(char.lower()):
             result += chr((ord(char) + s - 97) % 26 + 97)
     return result
 
 def step2(text):
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    key = "fcpevqkzgmtrayonujdlwhbxsi"
+    alphabet = "abcdefghijklmnopqrstuvwxyz!@#$%&*"
+    l = list(alphabet)
+    random.shuffle(l)
+    key = ''.join(l)
     result = ""
     for letter in text:
         if letter.lower() in alphabet:
             result += key[alphabet.find(letter.lower())]
         else:
             result += letter
+    
+    print "\nRandomized Alphabet: " + key + "\n"
+
     return result
 
 def step3(text):
@@ -34,7 +42,8 @@ def step3(text):
 
 def step4_code(letter):
     custom_cipher = { 'Z':"ABBAA", 'z':"ABBAA", 'Y':"AAABA", 'y':"AAABA", 'X':"ABABA", 'x': "ABABA", 'W':"AABBA" , 'w':"AABBA", 'V':"ABBBA", 'v':"ABBBA", 'U':"BAAAA", 'u':"BAAAA", 'T':"BBAAA", 't':"BBAAA", 'S':"BABAA", 's':"BABAA", 'R':"BBBAA", 'r':"BBBAA", 'Q':"BAABA", 'q':"BAABA", 'P':"BBABA", 'p':"BBABA", 'O':"BABBA", 'o':"BABBA", 'N':"BBBBA", 'n':"BBBBA", 'M':"AAAAB", 'm':"AAAAB", 'L':"ABAAB", 'l':"ABAAB", 'K':"AABAB", 'k':"AABAB", 'J':"ABBAB", 'j':"ABBAB", 'I':"AAABB", 'i':"AAABB", 'H':"ABABB", 'h':"ABABB", 'G':"AABBB", 'g':"AABBB", 'F':"ABBBB", 'f':"ABBBB", 'E':"BAAAB", 'e':"BAAAB", 'D':"BBAAB", 'd':"BBAAB", 'C':"BABAB", 'c':"BABAB", 'B':"BBBAB", 'b':"BBBAB", 'A':"BAABB", 'a':"BAABB"}
-    
+    if(letter.isalpha() == 0):
+        return letter
     code = custom_cipher[letter]
     return code
 
@@ -119,14 +128,13 @@ def step8(text, key):
                 result.append(rail[i][j])
     return("" . join(result))
 
-text = raw_input("Word(s) or Phrase(s) to Encrypt: ")
+text = raw_input("Plaintext: ")
 s = int(raw_input("Shift Number: "))
 key = raw_input("Key: ")
-key2 = int(raw_input("Second Key: "))
-print "\n"
+key2 = int(raw_input("Second Number: "))
 
 for i in range(1, 9):
-    print "Step " + str(i) + ": ",
+    # print "Step " + str(i) + ": ",
     if i == 1:
         result = step1(text, s)
     elif i == 2:
@@ -143,4 +151,5 @@ for i in range(1, 9):
         result = step7(result, key)
     else: 
         result = step8(result, key2)
-    print result
+    # print result
+print "Cipher Text:\n" + result
