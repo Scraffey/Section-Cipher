@@ -80,7 +80,7 @@ def decrypt():
 
     if otf == 'Y' or otf == 'y':
         output_file(result)
-    print "Plaintext:\n" + result
+    print "\nPlaintext:\n" + result
     return
 
 def info():
