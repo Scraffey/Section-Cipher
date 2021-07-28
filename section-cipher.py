@@ -55,6 +55,7 @@ def decrypt():
 
     if ftf == 'F' or ftf == 'f':
         text = input_file()
+        print "Cipher Text:\n" + text
     else:
         text = raw_input("Cipher Text: ")
 
