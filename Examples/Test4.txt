@@ -1,0 +1,56 @@
+
+   _____           __  _                _______       __             
+  / ___/___  _____/ /_(_)___  ____     / ____(_)___  / /_  ___  _____
+  \__ \/ _ \/ ___/ __/ / __ \/ __ \   / /   / / __ \/ __ \/ _ \/ ___/
+ ___/ /  __/ /__/ /_/ / /_/ / / / /  / /___/ / /_/ / / / /  __/ /    
+/____/\___/\___/\__/_/\____/_/ /_/   \____/_/ .___/_/ /_/\___/_/     
+                                           /_/                       
+
+Welcome to Section Encryption!
+
+Would You Like to Encrypt (E), Decrypt (D), Get Information (I), or Quit (Q)? I
+
+----Information----
+-Encryption-                            -Decryption-
+
+Requirements:                           Requirements:
+-Shift Key                              -Cipher Text
+-Rail Key                               -Shift Key
+                                        -Rail Key
+Invalid Characters:                     -Alphabet
+-,^,(,),-,+,=,_,~,`,',"
+
+Would You Like to Encrypt (E), Decrypt (D), Get Information (I), or Quit (Q)? E
+
+----Encription----
+Input Plaintext Through the Command-Line (C) or a File (F)? C
+Output Cipher Text into a File (Y/N)? Y
+Plaintext: Password123!
+Shift Number: 2
+Rail Number: 2
+
+Randomized Alphabet: G&D@K%IzytmZwUM!Rcve#Okq*aVoLEgNxYQdhpsHnrCiubPWf$FTXjSlABJ
+
+What would you like to call the output File? Out.txt
+
+Cipher Text:
+MEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMEMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMEMAMAMAMAMEMEMAMAMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMAMAMAMAMAMEMEMAMAMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMEMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMEMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMAMAMAMAMAMEDwDwDwTwDwTxDwDxDwDwDwTwDxDxDwDxDwDwTwTwDxDxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDwTxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDwTxDwDwDwDwTwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwDwTwDxDxDwDwDwDwTwTwDxDxDwDxDwDwDwTwDwTxDwDxDwDwTwTwDwTxDwDwDwDwTwTwDxDxDwDwDwDwTwTwDxDxDwDwDwDwDwTwDwTxDwDxDwDwDwTwDwTxDwDxDwDwTwTwDxDxDwDwDwDwDwTwDxDxDwDwDwDwDwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwTwTwDwTxDwDwDwDwDwTwDwTxDwDwDwDwDwTwDxDxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDxDxDwDwDwDwDwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwTwTwDxDxDwDwDwDwTwTwDwTxDwDw
+
+Would You Like to Encrypt (E), Decrypt (D), Get Information (I), or Quit (Q)? D
+
+----Decryption----
+Input Cipher Text Through Command-Line (C) or a File (F)? F
+Output Plaintext into a File (Y/N)? N
+What is the name of the input File? Out.txt
+Cipher Text:
+MEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMEMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMEMAMAMAMAMEMEMAMAMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMAMAMAMAMAMEMEMAMAMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMEMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMEMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMAMEMAMEMAMAMAMAMEMEMAMEMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMAMEMAMAMAMAMAMAMEMEMAMAMAMAMAMAMEDwDwDwTwDwTxDwDxDwDwDwTwDxDxDwDxDwDwTwTwDxDxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDwTxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDwTxDwDwDwDwTwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwDwTwDxDxDwDwDwDwTwTwDxDxDwDxDwDwDwTwDwTxDwDxDwDwTwTwDwTxDwDwDwDwTwTwDxDxDwDwDwDwTwTwDxDxDwDwDwDwDwTwDwTxDwDxDwDwDwTwDwTxDwDxDwDwTwTwDxDxDwDwDwDwDwTwDxDxDwDwDwDwDwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwTwTwDwTxDwDwDwDwDwTwDwTxDwDwDwDwDwTwDxDxDwDxDwDwDwTwDxDxDwDxDwDwDwTwDxDxDwDwDwDwDwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwTwTwDwTxDwDxDwDwTwTwDxDxDwDwDwDwTwTwDwTxDwDw
+Shift Number: 2
+Rail Number: 2
+Alphabet: G&D@K%IzytmZwUM!Rcve#Okq*aVoLEgNxYQdhpsHnrCiubPWf$FTXjSlABJ
+
+Plaintext:
+Password123!
+
+Would You Like to Encrypt (E), Decrypt (D), Get Information (I), or Quit (Q)? q
+
+----Quiting----
