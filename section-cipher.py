@@ -46,7 +46,7 @@ def encrypt():
 
     if otf == 'Y' or otf == 'y':
         output_file(result)
-    print "\nCipher Text:\n" + result
+    print "Cipher Text:\n" + result
     return
 
 def decrypt():
