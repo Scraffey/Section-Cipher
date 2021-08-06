@@ -44,12 +44,12 @@ Separate Program Dedicated to Encrypting the Plaintext - enc_section_cipher.py
 * Does not support input from a file or output to a file
 
 ## Decryption Program
-Separate Program Dedicated to Decrypting the Cipher Text
+Separate Program Dedicated to Decrypting the Cipher Text - dec_section_cipher.py
 * Includes a Step by Step view of the Decryption
 * Does not support input from a file or output to a file
 
 ## Examples
-Examples of the Programs being on basic phrases/words - dec_section_cipher.py
+Examples of the Programs being used on basic phrases/words
 * Old-Test1.txt & Old-Test2.txt
     * Test Conducted with only the Encryption Program (Includes Ciphers not Currently Used in this Version)
 * Test3.txt
